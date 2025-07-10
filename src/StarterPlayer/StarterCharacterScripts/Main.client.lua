@@ -1,0 +1,1 @@
+print("¡Script de StarterCharacterScripts funcionando!") 

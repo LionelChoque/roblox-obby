@@ -1,0 +1,58 @@
+{
+  "name": "Obby de las Dimensiones",
+  "tree": {
+    "$className": "DataModel",
+    
+    "Workspace": {
+      "$className": "Workspace",
+      "Levels": {
+        "$path": "src/Workspace/Levels"
+      },
+      "Lobby": {
+        "$path": "src/Workspace/Lobby"
+      },
+      "SharedAssets": {
+        "$path": "src/Workspace/SharedAssets"
+      }
+    },
+    
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameCore": {
+        "$path": "src/ServerScriptService/GameCore"
+      },
+      "Mechanics": {
+        "$path": "src/ServerScriptService/Mechanics"
+      },
+      "Economy": {
+        "$path": "src/ServerScriptService/Economy"
+      }
+    },
+    
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "RemoteEvents": {
+        "$path": "src/ReplicatedStorage/RemoteEvents"
+      },
+      "RemoteFunctions": {
+        "$path": "src/ReplicatedStorage/RemoteFunctions"
+      },
+      "SharedModules": {
+        "$path": "src/ReplicatedStorage/SharedModules"
+      },
+      "Assets": {
+        "$path": "src/ReplicatedStorage/Assets"
+      }
+    },
+    
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    }
+  }
+}
